@@ -1,0 +1,19 @@
+{
+  "eslint.validate": [
+    "js"
+  ],
+  "stylelint.validate": [
+    "css",
+    "scss"
+  ],
+  "htmlhint.enable": false,
+  "scss.validate": false,
+  "css.validate": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true,
+    "source.fixAll.eslint": true
+  },
+  // Prettier併用
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
