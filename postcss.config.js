@@ -1,8 +1,8 @@
 module.exports = {
   plugins: [
     require('autoprefixer')({
-      cascade:false,
-      grid:true
+      cascade: false,
+      grid: true,
     }),
   ],
-}
+};

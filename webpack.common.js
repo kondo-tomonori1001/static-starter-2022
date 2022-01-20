@@ -7,24 +7,22 @@ module.exports = {
     //  出力ファイルのディレクトリ名
     path: `${__dirname}/public/assets/js`,
     // 出力ファイル名
-    filename: "main.js"
+    filename: 'main.js',
   },
   module: {
     rules: [
       // ==== babel ====
       {
-        test:/\.js$/,
-        use:[
+        test: /\.js$/,
+        use: [
           {
-            loader:"babel-loader",
+            loader: 'babel-loader',
             options: {
-              presets: [
-                "@babel/preset-env",
-              ]
-            }
-          }
-        ]
+              presets: ['@babel/preset-env'],
+            },
+          },
+        ],
       },
-    ]
+    ],
   },
 };

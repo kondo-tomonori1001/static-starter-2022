@@ -30,7 +30,8 @@
     "lint:sass": "stylelint \"**/*.scss\"",
     "format:sass": "stylelint --fix \"**/*.scss\"",
     "lint:js": "eslint src/js/**/*.js",
-    "format:js": "eslint src/js/**/*.js --fix"
+    "format:js": "eslint src/js/**/*.js --fix",
+    "format":"run-s format:*"
   },
   "author": "KON",
   "license": "ISC",
